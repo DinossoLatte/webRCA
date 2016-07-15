@@ -242,10 +242,23 @@ a:visited {
 }
 
 .div_footer_formulario_comentarios {
-    display: inline-block;
-    height: 160px;
+    position: relative;
+    bottom: 24px;
+    display: block;
+    height: 120px;
     width: 300px;
     float: right;
+}
+
+.div_footer_formulario_comentarios textarea {
+    width: 170px;
+    height: 80px;
+}
+
+.div_footer_formulario_submit {
+    position: relative;
+    left: 329px;
+    bottom: 14px;
 }
 
 .div_footer_formulario label {
