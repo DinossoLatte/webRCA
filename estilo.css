@@ -1,0 +1,294 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-jul-2016, 19:09:32
+    Author     : dinossolatte
+*/
+
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 228, 227);
+}
+
+a:active {
+    color: #ffffff;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.div_pagina {
+    display: inline-block;
+}
+
+.div_principal {
+    text-align: left;
+    text-justify: auto;
+    text-align: justify;
+    font-family: Arial;
+}
+
+.div_header_items {
+    vertical-align: top;
+    font-size: 7px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial;
+    line-height: 2.3;
+    padding: 1.5px;
+}
+
+.div_header {
+    text-align: justify;	    
+    background-color: rgb(153, 153, 153);
+    color: white;
+}
+
+.div_header_imagenes {
+    text-align: center;
+    vertical-align: top;
+    background-color: rgb(202, 202, 202);
+    height: 240px;
+}
+
+.div_header_imagenes_eppa {
+    float: left;
+    vertical-align: middle;
+    position: relative;
+    top: 100px;
+    left: 80px;
+}
+
+#img_portada {
+    float: right;
+    height: 240px;
+}
+
+.div_header_imagenes_titulo {
+    vertical-align: central;
+    height: 198px;
+    position: relative;
+    left: 10px;
+}
+
+#eppa_crs {
+    width: 61px; 
+    height: 61px;
+}
+
+#eppa_fyvar {
+    width: 138px;
+    height: 61px;
+}
+
+.imagen_eppa {
+    margin: 0px;
+    display: inline;
+    position: relative;
+    top: -1.2ex;
+    left: 3em;
+}
+
+.div_header_catalogos {
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(202, 202, 202);
+}
+
+#imagen_catalogo {
+    height: auto;
+}
+
+.div_header_catalogos img {
+    height: 115px;
+}
+
+.div_header_catalogos a:active {
+    color: initial;
+}
+
+.div_header_catalogos a:link {
+    color: initial;
+}
+
+.div_header_catalogos a:visited {
+    color: initial;
+}
+
+.div_header_catalogos_imagenes div {
+    font-size: x-small;
+    height: 120px;
+    display: inline-block;
+}
+
+.div_header_catalogos_imagen_makito {
+    position: relative;
+    left: 12em;
+    text-align: center;
+    width: 88.16px;
+}
+
+.div_header_catalogos_imagen_mid {
+    position: relative;
+    left: 24em;
+    text-align: center;
+    width: 99.01px;
+}
+
+.div_header_catalogos_publi {
+    position: relative;
+    left: 36em;
+    text-align: center;
+    width: 82.41px;
+}
+
+.div_header_catalogos_roly {
+    position: relative;
+    left: 48em;
+    text-align: center;
+    width: 66.43px;
+}
+
+.div_header_catalogos_blanco {
+    position: relative;
+    left: 60em;
+    text-align: center;
+    width: 76.66px;
+}
+
+.div_header_catalogos_carteleria {
+    position: relative;
+    left: 72em;
+    text-align: center;
+    height: 78px;
+    width: 65.16px;
+}
+
+.div_contenido {
+    background-color: white;
+    padding: 1em;
+    height: 300px;
+}
+
+.div_contenido_img #img_portada {
+    float: left;
+    border: 0px solid;
+    padding-right: 5px;
+    width: 280px;
+}
+
+.div_contenido_texto {
+    font-family: Arial;
+    text-justify: auto;
+    text-align: left;
+    line-height: 20px;
+}
+
+.div_contenido_titulo {
+    margin: 0.5em;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: large;
+    text-justify: auto;
+    text-align: left;
+    line-height: 20px;
+}
+
+.div_footer {
+    margin-top: 0px;
+}
+
+.div_footer_contacto {
+    clear: left;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: -5px;
+    margin-right: -10px;
+    width: 50%;
+    font-size: x-small;
+    background-color: crimson;
+    height: 175px;
+}
+
+.div_footer_formulario {
+    font-size: x-small;
+    background-color: aliceblue;
+    float: right;
+    padding-top: 5px;
+    margin-top: -5px;
+    width: 50%;
+    height: 175px;
+}
+
+.div_footer_formulario form {
+    height: 150px;
+}
+
+.div_footer_formulario form div {
+    height: 15px;
+    width: 330px;
+    text-align: center;
+}
+
+.div_footer_formulario_comentarios {
+    display: inline-block;
+    height: 160px;
+    width: 300px;
+    float: right;
+}
+
+.div_footer_formulario label {
+    display: block;
+    float: left;
+    margin-top: 4px;
+    margin-left: 1em;
+}
+
+.div_footer_formulario input {
+    display: inline;
+    width: 105px;
+    float: right;
+}
+
+.div_footer_formulario select {
+    display: inline;
+    width: 105px;
+    float: right;
+}
+
+.div_footer_webmaster_email {
+    padding-right: 2px;
+    vertical-align: bottom;
+    font-size: xx-small;
+    margin-top: 73px;
+}
+
+.div_footer_creditos {
+    margin-top: -2px;
+    margin-left: 5px;
+    vertical-align: bottom;
+    font-size: xx-small;
+}
+
+.div_footer_items {
+    clear: both;
+    font-size: 7px;
+    text-align: left;
+    font-family: Arial;
+    line-height: 2.3;
+    padding: 1.5px;
+    color: white;
+    vertical-align: top;
+    background-color: rgb(153, 153, 153);
+}
