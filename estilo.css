@@ -241,6 +241,11 @@ a:visited {
     text-align: center;
 }
 
+.div_footer_formulario_tipo select {
+    width: 117px;
+    height: 29px;
+}
+
 .div_footer_formulario_comentarios {
     position: relative;
     bottom: 24px;
@@ -257,7 +262,7 @@ a:visited {
 
 .div_footer_formulario_submit {
     position: relative;
-    left: 329px;
+    left: 341px;
     bottom: 14px;
 }
 
@@ -276,7 +281,6 @@ a:visited {
 
 .div_footer_formulario select {
     display: inline;
-    width: 105px;
     float: right;
 }
 
