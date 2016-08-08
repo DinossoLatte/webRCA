@@ -107,6 +107,9 @@ a:visited {
 
 #imagen_catalogo {
     height: auto;
+    margin-left: 46%;
+    padding-bottom: 8px;
+    padding-top: 5px;
 }
 
 .div_header_catalogos img {
