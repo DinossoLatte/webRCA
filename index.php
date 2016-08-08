@@ -170,8 +170,7 @@
         			</div>
           		<div class="div_footer_formulario_comentarios">
           			<label for="input_comentarios">Comentarios:</label>
-          			  <textarea id="input_comentarios" title="Comentarios" name="comentarios" value="<?php echo $form['comentario']; ?>">
-                  </textarea>
+          			  <textarea id="input_comentarios" title="Comentarios" name="comentarios" value="<?php echo $form['comentario']; ?>"></textarea>
           		</div>
           		<br>
           		<div class="div_footer_formulario_empresa">
