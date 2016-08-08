@@ -23,7 +23,7 @@
           exit();
         }
 
-        $completed = mail( 'dinossolatte@gmail.com', 'Form', "Formulario rellenado\n\rDatos:\n\r\n\rNombre: $nombre\n\rEmail: $email\n\rTelefono: $telefono\n\rTipo: $tipo\n\rComentarios: $comentarios." );
+        $completed = mail( 'rcapublicidad@outook.com', 'Form', "Formulario rellenado\n\rDatos:\n\r\n\rNombre: $nombre\n\rEmail: $email\n\rTelefono: $telefono\n\rTipo: $tipo\n\rComentarios: $comentarios." );
 
         if( $completed != true ) {
           $_SESSION['error'][] = 'Fallo en el envio del formulario, se ha comunicado la incidencia al encargado correspondiente.';
@@ -44,14 +44,20 @@
           $_SESSION['error'][] = "Comentarios vacios, comente lo que busca.\n";
       }
 
-      if(isset($mail) && !filter_var($mail, FILTER_VALIDATE_EMAIL)) {
-          $_SESSION['error'][] = "Email introducido incorrecto\n";
-          $_SESSION['form']['email'] = "";
-      }
+      if(isset($mail) || isset($tel)) {
 
-      if(isset($tel) && !preg_match('/^[0-9]{9}$/',$tel)) {
-        $_SESSION['error'][] = "Telefono introducido no valido";
-        $_SESSION['form']['telefono'] = "";
+          if(isset($mail) && !filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+              $_SESSION['error'][] = "Email introducido incorrecto\n";
+              $_SESSION['form']['email'] = "";
+          }
+
+          if(isset($tel) && !preg_match('/^[0-9]{9}$/',$tel)) {
+            $_SESSION['error'][] = "Telefono introducido no valido";
+            $_SESSION['form']['telefono'] = "";
+          }
+
+      } else {
+          $_SESSION['error'][] = "Es necesario rellenar el campo de telefono o email";
       }
 
       if(isset($_SESSION['error'])) {
